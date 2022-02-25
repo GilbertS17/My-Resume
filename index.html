@@ -1,48 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Resume</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <title>Gilbert Sahyoun</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <img src="images/my-img.jpeg" alt="my photo" id="my-img"/>
-        <div class="header-info">
-            <h1>Gilbert Sahyoun</h1>
-            <p>Frontend developer</p>
-            <p>I am student and excited about web development looking to land an internship to earn some experience so I can boost my career.</p>
+    <div class="top-container">
+        <img src="images/cloud.png" class="top-cloud" alt="cloud-img">
+        <h1>I'm Gilbert</h1>
+        <h2 class="what-i-am">a frontend developer</h2>
+        <img src="images/cloud.png" class="bottom-cloud" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img src="./images/my-img.png" alt="my img" id="my-img">
+          <h2>Hello.</h2>
+          <p class="intro">I am a front-end developer looking to land an internship and work remotely while studying Computer Science at university</p>
         </div>
-    </div>
-    <hr>
-    <h2>Technical Skills</h2>
-    <div class="first-row">
-        <img src="images/JS.png" alt="" id="js-logo" class="img"/>
-        <img src="images/HTML.png" alt="" id="html-logo" class="img"/>
-        <img src="images/CSS.png" alt="" id="css-logo" class="img"/>
-    </div>
-    <div class="second-row">
-        <img src="images/React.png" alt="" id="react-logo" class="img"/>
-        <img src="images/Git.png" alt="" id="git-logo" class="img"/>
-    </div>
-    <div class="third-row">
-        <img src="images/Github.png" alt="" id="github-logo" class="img"/>
-        <img src="images/Bootstrap.png" alt="" id="bootstrap-logo" class="img"/>
-        <img src="images/SQL.png" alt="" id="sql-logo" class="img"/>
-    </div>
-    <hr id="hr2">
-    <div class="contact-me">
-        <h3>Contact me</h3>
-        <form action="mailto:gilbertsahyoun.business@gmail.com" method="post" enctype="text/plain">
-            <label>Your Name:</label>
-            <input type="text" name="yourName" value="" id="email-in" required><br>
-            <label>Your Email:</label>
-            <input type="email" name="yourEmail" value="" required><br>
-            <label>Your Message:</label>
-            <textarea name="yourMessage" cols="30" rows="10" required></textarea><br>
-            <input type="submit" id="submit-btn">
-        </form>
-    </div>
-    <script src="index.js"></script>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row-1">
+            <img class="computer-img" src="./images/computer.png" alt="computer-img">
+            <div class="skill-info">
+              <h3 class="skill-title">Design and Web developer</h3>
+              <p>Started learning code in 2018. And because of my curiosity and consistency, I have gained a lot of experience and skills in web apps and designing it.</p>
+            </div>
+          </div>
+          <div class="skill-row-2">
+            <div class="skill-info">
+              <h3 class="skill-title">Basketballer</h3>
+              <p>One of the things I am passioned about is basketball. Since I was a kid I loved this sport and my height helped me to play it as well 😃</p>
+            </div>
+            <img class="basketball-img" src="./images/basketball.png" alt="basketball-img">
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you like coding or basketball as mush as I do</h3>
+          <p class="contact-message">You can contact me whenever you like so we can colaborate on any project or discuss any code 😎</p>
+          <a class="btn" href="mailto:gilbertsahyoun.business@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/gilbert-sahyoun-27b1b5217/" target="_blank">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/GilbertS17" target="_blank">Github</a>
+        <p class="name-caption">© 2022 Gilbert Sahyoun.</p>
+      </div>
+      
 </body>
 </html>
