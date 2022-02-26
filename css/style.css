@@ -67,25 +67,25 @@ a:hover {
     padding-bottom: 10px;
 }
 
-.skill-row-1 {
+.hobby-row-1 {
     width: 50%;
     margin: 0 auto 50px;
     text-align: left;
     display: flex;   
 }
 
-.skill-row-2 {
+.hobby-row-2 {
     width: 50%;
     margin: 0 auto 50px;
     text-align: left;
     display: flex;   
 }
 
-.skill-info {
+.hobby-info {
     direction: column;
 }
 
-.skill-title {
+.hobby-title {
     padding-top: 40px;
 }
 
@@ -139,6 +139,14 @@ h2{
     padding-top: 30px;
     position: relative;
     left: 30px;
+}
+
+.row img{
+    max-width: 200px;
+}
+
+.row{
+    margin-top: 20px;
 }
 
 .name-caption {
