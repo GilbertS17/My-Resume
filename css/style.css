@@ -15,6 +15,7 @@ hr {
     border-bottom: none;
     width: 5%;
     margin: 50px auto;
+    background-color: #EEEEEE;
 }
 
 h3{
@@ -54,6 +55,9 @@ a:hover {
     padding: 30px auto;
 }
 
+.row {
+    margin-top: 0px !important;
+}
 
 .intro {
     width: 40%;
@@ -111,17 +115,14 @@ h2{
     margin: 25px auto;
 }
 
-
-.top-cloud {
-    margin: 18px 0 0;
-    position: relative;
-    left: 350px;
+#mount-img {
+    max-width: 100%;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 100px;
-}
+    position: relative;
+    top: 200px;
+} 
 
 #my-img {
     max-width: 25%;
@@ -137,8 +138,26 @@ h2{
 .basketball-img {
     max-width: 30%;
     padding-top: 30px;
+    margin-bottom: 50px;
     position: relative;
     left: 30px;
+}
+
+.hobbies {
+    text-align: center;
+}
+
+.tech-skills {
+    background-color: #EEEEEE;
+}
+
+.tech-skills h2 {
+    padding: 30px;
+    margin-bottom: 0;
+}
+
+.tech-skills img {
+    padding: 20px 0;
 }
 
 .row img{
@@ -150,9 +169,9 @@ h2{
 }
 
 .name-caption {
+    color: #EEEEEE;
     margin-bottom: 0px;
     padding-top: 50px;
-    color: #EEEEEE;
     font-size: 0.75rem;
     padding-bottom: 20px;
 }
