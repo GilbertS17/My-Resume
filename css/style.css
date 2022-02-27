@@ -36,6 +36,11 @@ a:hover {
     color: #EEEEEE;
 }
 
+.top-width {
+    width: 90%;
+    margin: auto;
+}
+
 .top-container {
     background-color: #00ADB5;
     margin: 0px;
@@ -153,6 +158,8 @@ h2{
 
 .tech-skills {
     background-color: #EEEEEE;
+    width: 80%;
+    margin: auto;
 }
 
 .tech-skills h2 {
