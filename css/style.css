@@ -60,6 +60,30 @@ a:hover {
     padding: 30px auto;
 }
 
+.nav{
+    vertical-align: middle;
+    padding-top: 0;
+    font-family: sans-serif;   
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.navbar-brand{
+    color: #EEEEEE;
+    font-family: 'Merriweather', serif;
+}
+
+.nav-link{
+    color: #EEEEEE;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-toggler {
+    position: relative;
+    top: 30px;
+}
+
 .row {
     margin-top: 0px !important;
 }
